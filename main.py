@@ -7,5 +7,7 @@ WIDTH = 600
 HEIGHT = 380
 TITLE = "World"
 FPS = 60
-print("Hello World!")
+b = Actor("buttun")
+def draw():
+    b.draw()
 pgzrun.go()
